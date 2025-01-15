@@ -1,0 +1,5 @@
+charge = float(input("Enter the charges amount of food: "))
+tip = round(charge * 0.18, 2)
+tax = round(charge * 0.07, 2)
+total = round(charge + tip + tax, 2)
+print("the tax is: ",tip," and the tax is:",tax,"\nThe total is:",total) 
